@@ -1,0 +1,11 @@
+[
+ {"name":"Caffe Strada","address":"2300 College Ave, Berkeley","typical_usd":10,"tags":["coffee","pastry","oat milk"],"open":[7,23]},
+ {"name":"Free Speech Movement Café","address":"Moffitt Library, UC Berkeley","typical_usd":9,"tags":["coffee","sandwich"],"open":[8,22]},
+ {"name":"Café Milano","address":"2522 Bancroft Way, Berkeley","typical_usd":9,"tags":["coffee","bagels"],"open":[7,22]},
+ {"name":"Imm Thai Street Food","address":"2068 Center St, Berkeley","typical_usd":16,"tags":["thai","peanut"],"open":[11,22]},
+ {"name":"Tako Sushi","address":"Durant Ave, Berkeley","typical_usd":18,"tags":["sushi","fish"],"open":[11,21]},
+ {"name":"Top Dog","address":"2534 Durant Ave, Berkeley","typical_usd":8,"tags":["hot dogs","meat-only"],"open":[10,23]},
+ {"name":"Yali's Café","address":"1920 Oxford St, Berkeley","typical_usd":11,"tags":["coffee","sandwich","vegetarian options"],"open":[7,20]},
+ {"name":"Chipotle","address":"2311 Telegraph Ave, Berkeley","typical_usd":13,"tags":["burritos","vegetarian options"],"open":[10,22]},
+ {"name":"Sweetheart Café","address":"2523 Durant Ave, Berkeley","typical_usd":9,"tags":["boba","snacks","dairy"],"open":[11,23]}
+]
