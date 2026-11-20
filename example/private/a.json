@@ -1,0 +1,16 @@
+{
+ "member": "Alex",
+ "budget_max_usd": 25,
+ "allergies": [],
+ "dislikes": [
+  "sushi"
+ ],
+ "dietary": [],
+ "free_times": [
+  [
+   17,
+   22
+  ]
+ ],
+ "max_travel_min": 20
+}
