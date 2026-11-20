@@ -1,0 +1,17 @@
+{
+ "member": "Blake",
+ "budget_max_usd": 12,
+ "allergies": [
+  "peanuts",
+  "tree nuts"
+ ],
+ "dislikes": [],
+ "dietary": [],
+ "free_times": [
+  [
+   18,
+   21
+  ]
+ ],
+ "max_travel_min": 15
+}
