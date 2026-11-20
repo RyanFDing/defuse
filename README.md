@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Defuse: keep the awkward part private" width="70%">
+  <img src="docs/readme/banner.png" alt="Defuse: keep the awkward part private" width="70%">
 </p>
 
 <h1 align="center">defuse.</h1>
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="1-opening.jpg" alt="Defuse demo page: the whole pipeline on one screen" width="100%">
+  <img src="docs/readme/1-opening.jpg" alt="Defuse demo page: the whole pipeline on one screen" width="100%">
 </p>
 
 ---
@@ -37,7 +37,7 @@ Every student group ends up planning around food. Someone quietly can't afford t
 ## How it works
 
 <p align="center">
-  <img src="card-2.jpg" alt="Private → Pooled → Group" width="100%">
+  <img src="docs/readme/card-2.jpg" alt="Private → Pooled → Group" width="100%">
 </p>
 
 ```mermaid
@@ -66,19 +66,19 @@ flowchart LR
 
 <table>
   <tr>
-    <td width="50%"><img src="2-private-intake.jpg" alt="Private intake"><br><b>1. Tell your bot privately.</b> Only you see this thread.</td>
-    <td width="50%"><img src="3-leak-caught.jpg" alt="Leak caught"><br><b>2. The Leak Checker catches a leaky draft</b> before it ever reaches the group.</td>
+    <td width="50%"><img src="docs/readme/2-private-intake.jpg" alt="Private intake"><br><b>1. Tell your bot privately.</b> Only you see this thread.</td>
+    <td width="50%"><img src="docs/readme/3-leak-caught.jpg" alt="Leak caught"><br><b>2. The Leak Checker catches a leaky draft</b> before it ever reaches the group.</td>
   </tr>
   <tr>
-    <td width="50%"><img src="4-plan-locked.jpg" alt="Plan locked"><br><b>3. The group votes</b> on options that already fit everyone.</td>
-    <td width="50%"><img src="6-judge-joins.jpg" alt="New teammate joins"><br><b>4. Someone new joins mid-plan.</b> Options update quietly, with no reason given.</td>
+    <td width="50%"><img src="docs/readme/4-plan-locked.jpg" alt="Plan locked"><br><b>3. The group votes</b> on options that already fit everyone.</td>
+    <td width="50%"><img src="docs/readme/6-judge-joins.jpg" alt="New teammate joins"><br><b>4. Someone new joins mid-plan.</b> Options update quietly, with no reason given.</td>
   </tr>
 </table>
 
 ## Privacy rules (enforced, not hoped for)
 
 <p align="center">
-  <img src="card-3.jpg" alt="Built for trust" width="100%">
+  <img src="docs/readme/card-3.jpg" alt="Built for trust" width="100%">
 </p>
 
 - **Pooled, not shared.** The bots plan from the lowest budget, the union of exclusions and the overlap of free times, never from anyone's individual answers.
@@ -102,9 +102,9 @@ python3 leakcheck.py example/bad.txt  example/private/     # → FAIL: allergy, 
 python3 leakcheck.py example/good.txt example/private/     # → PASS: 0 of 7 private facts appeared
 ```
 
-**Demo page:** open [`index.html`](index.html) in a browser, or use the [hosted version](https://claude.ai/artifact/RdiQiADDhjWBBzWXNWmPfp).
+**Demo page:** open [`demo/index.html`](demo/index.html) in a browser, or use the [hosted version](https://claude.ai/artifact/RdiQiADDhjWBBzWXNWmPfp).
 
-**iMessage (optional):** [`bridge.py`](bridge.py) turns each person's private thread into a text conversation on a Mac. Run `python3 bridge.py --selftest` from the repo root; setup is in [`imessage/README.md`](imessage/README.md).
+**iMessage (optional):** [`imessage/`](imessage/) turns each person's private thread into a text conversation on a Mac. See [`imessage/README.md`](imessage/README.md).
 
 ## Repo layout
 
@@ -116,9 +116,9 @@ filter_venues.py keeps only venues that fit every pooled limit
 leakcheck.py     fails any message that leaks a private fact
 venues.json      sample venue data
 example/         fake private inputs plus good and bad drafts
-index.html       the visual demo page
-bridge.py        optional iMessage bridge (Mac); setup in imessage/
-     images for this page
+demo/            the visual demo page
+imessage/        optional iMessage bridge (Mac)
+docs/readme/     images for this page
 ```
 
 ## How we built it
@@ -154,4 +154,4 @@ The hard part isn't planning; it's what you're allowed to say while planning. Se
 
 Ryan Ding · Sriram Joshi · Tushar Mehta · Adi Dwivedi, UC Berkeley
 
-<p align="center"><img src="mark.png" width="56" alt="Defuse mark"></p>
+<p align="center"><img src="docs/readme/mark.png" width="56" alt="Defuse mark"></p>
