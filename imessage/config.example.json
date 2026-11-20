@@ -1,0 +1,20 @@
+{
+  "allowlist": [
+    "+15105550101",
+    "teammate@icloud.com",
+    "+15105550103"
+  ],
+  "names": {
+    "+15105550101": "Ryan",
+    "teammate@icloud.com": "Sriram",
+    "+15105550103": "Tushar"
+  },
+  "tasks": [
+    "Slides",
+    "Data analysis",
+    "Write-up"
+  ],
+  "group_chat": "",
+  "join_code": "DEFUSE",
+  "max_guests": 3
+}
