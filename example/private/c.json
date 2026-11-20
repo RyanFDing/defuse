@@ -1,0 +1,16 @@
+{
+ "member": "Casey",
+ "budget_max_usd": 18,
+ "allergies": [],
+ "dislikes": [],
+ "dietary": [
+  "vegetarian"
+ ],
+ "free_times": [
+  [
+   18,
+   23
+  ]
+ ],
+ "max_travel_min": 25
+}
